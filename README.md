@@ -10,4 +10,3 @@
 ###                                    python conversion_program.py
                                      или (если версия Python 3)
 ###                                   python3 conversion_program.py
-test
