@@ -71,7 +71,6 @@ def convert_arab_roma():
     i = 0
     result = ''
     number = int(input("Введите арабское число [от 1 до 3999]: "))
-    print(number)
     # проверка числа на допустимый диапазон
     if number >= 4000 or number <= 0:
         return print('Превышен допустимый диапазон чисел!')
@@ -81,7 +80,7 @@ def convert_arab_roma():
             result += roma[i]
             number -= arab[i]
         i += 1
-    print(result)
+    print("Римское число: " +result)
     return questions()
 
 
